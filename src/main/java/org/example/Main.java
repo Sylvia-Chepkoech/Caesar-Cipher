@@ -8,7 +8,11 @@ public class Main {
         Boolean programRunning = true;
 
         System.out.println("Hello world!Welcome To Caeser Cipher");
+        while (programRunning){
+            System.out.println("Please choose between encryption or decryption or exit");
+            String userMessage = scanner.nextLine();
 
+        }
 
     }
 }
