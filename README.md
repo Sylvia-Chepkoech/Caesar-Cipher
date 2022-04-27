@@ -24,7 +24,7 @@
     $ cd ../path/to/the/file
   
    ```
-[Go Back to the top](#CaesarCipher)
+[Go Back to the top](#Caesar-Cipher)
 ## Behaviour Driven Development
 * The user is prompted between Encryption and Decryption or to exit the program.
     * Input - select Encryption
@@ -45,7 +45,7 @@
 
 
 
-[Go Back to the top](#CaesarCipher)
+[Go Back to the top](#Caesar-Cipher)
 ## DevelopMent
  <p> Need to contribute?? Follow the following steps.</p>
 
