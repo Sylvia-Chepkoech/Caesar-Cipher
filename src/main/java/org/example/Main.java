@@ -23,6 +23,18 @@ public class Main {
                 message.setmUserKey(userKey);
                 System.out.println("Your encrypted message is " + message.encryptMessage());
 
+            }else if (userMessage.equals("decryption")) {
+                System.out.println("Enter word to be decrypted");
+                String messageToBeDecrypted = scanner.nextLine();
+                System.out.println("Please enter the a number between 1 to 25");
+                int userKey = Integer.parseInt(scanner.nextLine());
+
+
+                Decryption message = new Decryption(messageToBeDecrypted, userKey);
+                message.setmUserMessaage(messageToBeDecrypted);
+                message.setmUserKey(userKey);
+                System.out.println("Your decrypted message is " + message.decryptMessage());
+
             }
         }
 
