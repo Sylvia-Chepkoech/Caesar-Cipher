@@ -25,7 +25,27 @@
   
    ```
 [Go Back to the top](#CaesarCipher)
+## Behaviour Driven Development
+* The user is prompted between Encryption and Decryption or to exit the program.
+    * Input - select Encryption
+    * Input - Enter message to be encrypted.
+    * Input - Enter key to encrypt the message.
+    * output - An encrypted word is returned to the user.
 
+    * Input - select Decryption
+    * Input - Enter message to be Decrypted.
+    * Input - Enter key to Decrypt the message.
+    * output - A Decrypted word is returned to the user.
+
+    * Input - Select Exit.
+    * output - exits the program.
+
+* Displays an error if the key entered is below 1 and above 25
+    * output - Please enter a key between 1 and 25.
+
+
+
+[Go Back to the top](#CaesarCipher)
 ## DevelopMent
  <p> Need to contribute?? Follow the following steps.</p>
 
