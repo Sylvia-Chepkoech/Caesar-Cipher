@@ -35,6 +35,9 @@ public class Main {
                 message.setmUserKey(userKey);
                 System.out.println("Your decrypted message is " + message.decryptMessage());
 
+            }else if (userMessage.equals("exit")) {
+                programRunning = false;
+
             }
         }
 
