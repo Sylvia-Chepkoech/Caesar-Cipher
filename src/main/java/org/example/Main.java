@@ -38,6 +38,8 @@ public class Main {
             }else if (userMessage.equals("exit")) {
                 programRunning = false;
 
+            }else {
+                System.out.println("Check your options again!");
             }
         }
 
